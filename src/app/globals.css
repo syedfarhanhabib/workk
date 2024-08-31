@@ -63,7 +63,24 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+
+  .padding {
+    @apply px-5 md:px-10 py-10 md:py-20;
+  }
+  .heading {
+    @apply tracking-tighter leading-none text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-medium;
+  }
+  .desc {
+    @apply text-muted tracking-tighter leading-normal text-sm sm:text-base font-medium;
+  }
+  .title {
+    @apply tracking-tighter leading-none text-xl sm:text-2xl md:text-3xl font-medium;
+  }
+  .subtitle {
+    @apply tracking-tighter leading-none text-lg sm:text-xl md:text-2xl font-medium;
   }
 }
